@@ -155,11 +155,26 @@ ul li {
   margin-bottom: 1rem;
 }
 
-.social-icons a {
-  margin-right: 1rem;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
 }
 
-.social-icons img {
-  width: 40px;
-  height: 40px;
+.social-icons a {
+  margin-right: 1rem;
+  font-size: 5rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-github{
+  color: #000;
 }
