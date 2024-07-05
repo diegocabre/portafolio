@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  background-image: url("/src/img/Profile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #006511;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 600px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  height: 100vh;
+  width: 100%;
+}
+
+section {
+  padding: 4rem 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.about {
+  background-color: #f9f9f9;
+  border-bottom: none;
+  height: 100vh;
+  width: 100%;
+}
+
+.about:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.projects {
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.card {
+  width: calc(33.333% - 2rem);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+.card-body {
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social {
+  background-color: #f9f9f9;
+}
+
+.footer {
+  background-color: #006511;
+  color: white;
+  padding: 2rem 0;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
+
+p,
+ul {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
